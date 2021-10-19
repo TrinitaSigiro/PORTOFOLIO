@@ -18,9 +18,9 @@ html {
 }
 
 body {
-	background: $white;
+	background: $lightGray;
   font: 18px/1.4 $helvetica;
-  color: $darkGray;
+  color: $black;
 }
 
 .container {
@@ -211,8 +211,7 @@ img {
 }
 
 nav {
-  float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
+  top: 0;
   font-family: $helveticaNeue;
   font-size: 18px;
 
@@ -224,7 +223,6 @@ nav {
   }
 
   a {
-    margin-left: 20px;
     color: $darkGray;
     text-align: right;
     font-weight: 300;
@@ -242,8 +240,16 @@ nav {
 //
 
 .posts > .post {
-  padding-bottom: 2em;
+  padding: 2em;
   border-bottom: 1px solid $lightGray;
+  transition: box-shadow .3s;
+  margin-bottom: 1em;
+  box-shadow: 0 0 11px rgba(33,33,33,.2);
+  transition: box-shadow 50ms;
+}
+
+.posts > .post:hover {
+  box-shadow: 0 11px 21px rgba(33,33,33,.2);
 }
 
 .posts > .post:last-child {
