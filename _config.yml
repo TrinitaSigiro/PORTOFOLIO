@@ -1,7 +1,6 @@
 #
 # This file contains configuration flags to customize your site
 #
-theme: jekyll-theme-dinky
 
 # Name of your site (displayed in the header)
 name: (R)akademi
@@ -48,6 +47,7 @@ url:
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
+# !!! MOHON PERHATIKAN BAGIAN INI
 baseurl: "/jekyll-portfolio-demo"
 
 #
