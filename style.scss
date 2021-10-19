@@ -239,13 +239,18 @@ nav {
 // .main
 //
 
+.posts {
+  margin: 1em 0;
+}
+
 .posts > .post {
-  padding: 2em;
+  background: white;
+  padding: 1em;
   border-bottom: 1px solid $lightGray;
   transition: box-shadow .3s;
   margin-bottom: 1em;
   box-shadow: 0 0 11px rgba(33,33,33,.2);
-  transition: box-shadow 50ms;
+  transition: box-shadow 0.2s ease-in-out;
 }
 
 .posts > .post:hover {
@@ -255,6 +260,10 @@ nav {
 .posts > .post:last-child {
   padding-bottom: 1em;
   border-bottom: none;
+}
+
+.post > h1 {
+  margin: 0;
 }
 
 .post {
