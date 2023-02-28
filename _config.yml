@@ -3,10 +3,10 @@
 #
 
 # Name of your site (displayed in the header)
-name: (R)akademi
+name: TrinitaSigiro Portofolio
 
 # Short bio or description (displayed in the header)
-description: Tempat belajar robotik dan programming seru di Singaraja, Bali!
+description: Sebuah dokumentasi hasil kerja Trinita Sigiro yang disusun secara sistematis dan menarik 
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars.githubusercontent.com/u/49328595?v=4
@@ -18,15 +18,15 @@ avatar: https://avatars.githubusercontent.com/u/49328595?v=4
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email:
+  email: trinitasigiro8@gmail.com
   facebook:
   flickr:
-  github: barryclark/jekyll-now
-  instagram:
-  linkedin:
+  github: TrinitaSigiro
+  instagram:https://www.instagram.com/trinitart/
+  linkedin: linkedin.com/in/trinitasigiro/
   pinterest:
   rss: # just type anything here for a working RSS icon
-  twitter: jekyllrb
+  twitter: 
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
